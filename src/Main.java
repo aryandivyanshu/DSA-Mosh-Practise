@@ -3,13 +3,16 @@ public class Main {
         System.out.println("initiated!");
 
         Array numbers = new Array(4);
+
         numbers.insert(12);
         numbers.insert(24);
         numbers.insert(36);
         numbers.insert(48);
-        numbers.insert(60);
-        numbers.print();
+//        numbers.insert(60);
 
+        numbers.removeAt(3);
+
+        numbers.print();
 
     }
 }
